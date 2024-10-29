@@ -13,7 +13,7 @@ html{
     z-index: 1;
     width: 100%;
     position: fixed;
-    background-color: #F29B44;
+    background-color: rgb(78, 46, 24);
 
     .navbar {
 
@@ -34,10 +34,10 @@ html{
                 display: flex;
                 font-size: 50px;
                 font-weight: 800;
-                color: #eeeeee;
+                color: #dcdcdc;
                 align-items: flex-end;
                 i{
-                    color: #2C5BF2;
+                    color: #F29B44;
                 }
                 p {
                     font-size: 20px;
@@ -101,11 +101,12 @@ html{
                     .list-box{
                         display: flex;
                         transition: 0.5s;
+                        color: #dcdcdc;
                         i{
                             padding-left: 3px;
                         }
                         &:hover {
-                            color: white;
+                            color: #F29B44;
                             letter-spacing:2px;
     
                         }
@@ -184,7 +185,7 @@ html{
 
                 .list-item {
                     padding: 30px 20px;
-                    background-color: #F25F38;
+                    background-color: #f29b44;
                     border: 5px solid black;
                     border-bottom: unset;
                     transition: 0.5s;
@@ -193,14 +194,14 @@ html{
                         background-color: white;
 
                         .list-box {
-                            color: #F25F38;
+                            color: rgb(78, 46, 24);
                             letter-spacing:3px;
                         }
                     }
 
                     .list-box {
                         text-decoration: none;
-                        color: white;
+                        color: rgb(78, 46, 24);
                         font-size: 24px;
                         font-weight: 600;
                         transition: 0.5s;
